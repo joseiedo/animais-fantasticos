@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 export default function fetchBitcoin(url, target) {
   fetch(url)
     .then((r) => r.json())
