@@ -4,8 +4,9 @@ export default class ScrollSuave {
     if (options === undefined) {
       this.options = { behavior: 'smooth', block: 'start' };
     } else {
-      this.options = options || 'teste';
+      this.options = options;
     }
+
     this.scrollToSection = this.scrollToSection.bind(this);
   }
 
